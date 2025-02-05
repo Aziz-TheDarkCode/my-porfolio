@@ -1,0 +1,14 @@
+{
+  "greeting": "Bonjour 👋, je suis",
+  "role": "Développeur Logiciel",
+  "description": "animé par la passion de trouver des solutions innovantes aux problèmes quotidiens. Dans le monde en constante évolution de la technologie, je m'épanouis face aux défis liés à la création de solutions de pointe",
+  "origin":"Sénégalais",
+  "skills": {
+    "developer": "Développeur Logiciel",
+    "typescript": "Typescript",
+    "golang": "Golang",
+    "rust": "Rust",
+    "mobile": "Développement mobile",
+    "devops": "DevOps"
+  }
+}
