@@ -50,7 +50,7 @@ export default function ProjectCard({
         </p>
       </CardContent>
       <CardFooter className="flex items-end flex-1 flex-wrap w-full justify-between">
-        <p className="text-muted-foreground">Octobre 2024</p>
+        <p className="text-muted-foreground">.</p>
         <div className="flex px-2 py-1 -space-x-2 overflow-hidden">
           {tools.map((tool, index) => (
             <img

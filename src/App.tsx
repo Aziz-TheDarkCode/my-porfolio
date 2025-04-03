@@ -10,7 +10,7 @@ import ProjectCard from './components/project-card'
 
 function App() {
   const { t } = useTranslation();
-  
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -33,7 +33,7 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="font-sans dark:test ">
         <ModeToggle />
-        <div className="min-h-screen relative overflow-hidden">
+        <div className="relative overflow-hidden">
           <motion.div
             initial={{ x: 100 }}
             animate={{ x: 0 }}
@@ -56,6 +56,9 @@ function App() {
             </motion.h2>
             <motion.p variants={itemVariants} className="text-xl mb-8">
               {t('description')}
+            </motion.p>
+            <motion.p variants={itemVariants} className="text-xl mb-8">
+              {t('currentDeveloper')} <a className='underline text-indigo-500' href='https://01talent.com/'>01 Talent</a> {/* Add your company name here */}
             </motion.p>
 
             <motion.div
@@ -113,7 +116,7 @@ function App() {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="#"
+                href="https://www.linkedin.com/in/abdou-aziz-ndiaye-js/"
                 className="text-gray-600 hover:text-black"
               >
                 <Linkedin size={24} />
@@ -121,11 +124,36 @@ function App() {
             </motion.div>
           </motion.main>
         </div>
+        <h1 className='text-3xl font-bold text-left my-6'>{t("project")}</h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
       <ProjectCard
+        title="KomKomApp"
+        website="https://komkomapp.com"
+        description={t('projects.KomKomApp')}
+        logoColor="bg-orange-600"
+        tools={[
+          { name: "Tailwind", image: "/tw.jpg" },
+          { name: "Drupal", image: "/drupal.svg" },
+          { name: "React", image: "/digitalocean.svg" },
+          { name: "TypeScript", image: "/typescript.svg" },
+        ]}
+    />
+      <ProjectCard
+        title="Galsenfit"
+        website="https://galsenfit.com"
+        description={t('projects.Galsenfit')}
+        logoColor="bg-orange-600"
+
+        tools={[
+          { name: "Tailwind", image: "/node.svg" },
+          { name: "Drupal", image: "/graphql.svg" },
+          { name: "TypeScript", image: "/typescript.svg" },
+        ]}
+    />
+<ProjectCard
         title="Jumper Logistique"
         website="https://jumper-logistique.com"
-        description="Built a logistics platform with Next.js for fast, SEO-friendly frontend performance and Supabase as a backend for real-time shipment tracking and customer data management. Developed a custom admin dashboard for managing shipments, updating statuses, and handling customer inquiries efficiently."
+        description={t('projects.Jumper Logistique')}
         logoColor="bg-yellow-400"
 
         tools={[
@@ -135,29 +163,28 @@ function App() {
           { name: "Drupal", image: "/spb.png" },
         ]}
     />
-
 <ProjectCard
   title="Yoo Agility"
   website="https://yooagility.com"
-  description="Modernized a static website by implementing Drupal CMS with JSON API as a headless backend and migrating the frontend from Gatsby to Next.js. Achieved a 40% improvement in load times, enhanced SEO via server-side rendering, and streamlined content management with custom Drupal modules and API integration. Additionally, integrated the Paydunya payment gateway to enable secure online transactions for training course purchases."
+  description={t('projects.Yoo Agility')}
   logoColor="bg-blue-600"
   tools={[
     { name: "React", image: "/next-js.svg" },
     { name: "TypeScript", image: "/typescript.svg" },
-    { name: "Drupal", image: "/chakra-ui-icon.svg" },
+    { name: "Drupal", image: "/chakra-ui.svg" },
     { name: "Drupal", image: "/drupal.svg" },
   ]}
 />
 <ProjectCard
         title="DRH&MOI"
         website="https://drhetmoi"
-        description="Built a logistics platform with Next.js for fast, SEO-friendly frontend performance and Supabase as a backend for real-time shipment tracking and customer data management. Developed a custom admin dashboard for managing shipments, updating statuses, and handling customer inquiries efficiently."
+        description={t('projects.DRH&MOI')}
         logoColor="bg-teal-600"
         tools={[
-          { name: "React", image: "/react.svg" }, 
+          { name: "React", image: "/react.svg" },
           { name: "TypeScript", image: "/typescript.svg" },
           { name: "Tailwind", image: "/tw.jpg" },
-          { name: "Drupal", image: "/appwrite.png" },
+          { name: "Appwrite", image: "/appwrite.png" },
         ]}
     />
       </div>

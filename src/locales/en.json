@@ -1,6 +1,8 @@
 {
   "greeting": "Hello 👋, I am",
   "role": "Software Developer",
+  "project" : "Project that i've work on" ,
+
   "description": "driven by a passion for finding innovative solutions to everyday problems. In the fast-paced world of technology, I thrive on the challenges that come with creating cutting-edge solutions",
   "origin":"Senegalese",
   "skills": {
@@ -11,5 +13,13 @@
     "mobile": "Mobile development",
     "devops": "DevOps"
 
-  }
+  },
+  "projects": {
+    "KomKomApp": "Developed a high-performance landing page for a fintech mobile app using Drupal, ensuring a seamless user experience and optimized SEO. Implemented responsive design, fast-loading components, and best practices for search engine visibility to drive user engagement and conversions.",
+    "Galsenfit": "Integrated the Paydunya payment gateway into a Shopify shop to automate payment processing, developed a TypeScript/Node.js backend to manage orders and transactions, and implemented real-time payment tracking using GraphQL.",
+    "Jumper Logistique": "Built a logistics platform with Next.js for fast, SEO-friendly frontend performance and Supabase as a backend for real-time shipment tracking and customer data management. Developed a custom admin dashboard for managing shipments, updating statuses, and handling customer inquiries efficiently.",
+    "Yoo Agility": "Modernized a static website by implementing Drupal CMS with JSON API as a headless backend and migrating the frontend from Gatsby to Next.js. Achieved a 40% improvement in load times, enhanced SEO via server-side rendering, and streamlined content management with custom Drupal modules and API integration. Additionally, integrated the Paydunya payment gateway to enable secure online transactions for training course purchases.",
+    "DRH&MOI": "Developed a full-stack HR platform using React, Appwrite, and Node.js, enabling employees to purchase equipment (phones, laptops, etc.) through long-term payment plans. Implemented role-based authentication, real-time data synchronization, and secure payment processing. Designed a scalable backend with Appwrite for authentication, database management, and storage, while leveraging React for a responsive and dynamic user interface."
+  },
+  "currentDeveloper": "Currently a developer at"
 }

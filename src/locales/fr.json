@@ -1,6 +1,7 @@
 {
   "greeting": "Bonjour 👋, je suis",
   "role": "Développeur Logiciel",
+  "project" : "Projets auxquels j'ai travaillé" ,
   "description": "animé par la passion de trouver des solutions innovantes aux problèmes quotidiens. Dans le monde en constante évolution de la technologie, je m'épanouis face aux défis liés à la création de solutions de pointe",
   "origin":"Sénégalais",
   "skills": {
@@ -10,5 +11,13 @@
     "rust": "Rust",
     "mobile": "Développement mobile",
     "devops": "DevOps"
-  }
+  },
+  "projects": {
+    "KomKomApp": "Développé une landing page haute performance pour une application mobile fintech utilisant Drupal, garantissant une expérience utilisateur fluide et un SEO optimisé. Mise en œuvre d'un design réactif, de composants à chargement rapide et des meilleures pratiques pour la visibilité sur les moteurs de recherche afin d'augmenter l'engagement et les conversions.",
+    "Galsenfit": "Intégré la passerelle de paiement Paydunya dans une boutique Shopify pour automatiser le traitement des paiements, développé un backend TypeScript/Node.js pour gérer les commandes et les transactions, et mis en œuvre un suivi des paiements en temps réel utilisant GraphQL.",
+    "Jumper Logistique": "Construit une plateforme logistique avec Next.js pour des performances frontend rapides et optimisées pour le SEO et Supabase comme backend pour le suivi des expéditions en temps réel et la gestion des données clients. Développé un tableau de bord admin personnalisé pour gérer les expéditions, mettre à jour les statuts et traiter efficacement les demandes des clients.",
+    "Yoo Agility": "Modernisé un site web statique en implémentant Drupal CMS avec JSON API comme backend sans tête et en migrant le frontend de Gatsby à Next.js. Réalisé une amélioration de 40 % des temps de chargement, amélioré le SEO via le rendu côté serveur, et rationalisé la gestion de contenu avec des modules Drupal personnalisés et une intégration API. De plus, intégré la passerelle de paiement Paydunya pour permettre des transactions en ligne sécurisées pour les achats de cours de formation.",
+    "DRH&MOI": "Développé une plateforme RH full-stack utilisant React, Appwrite et Node.js, permettant aux employés d'acheter du matériel (téléphones, ordinateurs portables, etc.) via des plans de paiement à long terme. Mise en œuvre d'une authentification basée sur les rôles, synchronisation des données en temps réel et traitement sécurisé des paiements. Conçu un backend évolutif avec Appwrite pour l'authentification, la gestion de base de données et le stockage, tout en tirant parti de React pour une interface utilisateur réactive et dynamique."
+  },
+  "currentDeveloper": "Actuellement développeur chez"
 }
