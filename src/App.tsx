@@ -32,14 +32,18 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="font-sans dark:test ">
+        <div className='flex items-center gap-2 justify-center  w-full'>
         <ModeToggle />
+
+          <LanguageSwitcher />
+        </div>
+        
         <div className="relative overflow-hidden">
           <motion.div
             initial={{ x: 100 }}
             animate={{ x: 0 }}
             className="absolute top-4 right-4 space-x-4"
           >
-            <LanguageSwitcher />
           </motion.div>
 
           <motion.main
